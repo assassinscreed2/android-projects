@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"You clicked here",Toast.LENGTH_SHORT).show();
+                button.setPadding(12, 10, 0, 9);
             }
         });
 
